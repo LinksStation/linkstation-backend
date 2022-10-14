@@ -1,0 +1,25 @@
+{
+  "name": "link-station",
+  "version": "1.0.0",
+  "description": "A links shareable platform, where users's will be able to share links of their work, socials, blog post, etc. on the one single page.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": "https://github.com/LinksStation/linkstation-backend.git",
+  "author": "Pavan Sargar",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "flatted": "^3.2.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.2",
+    "morgan": "^1.10.0"
+  }
+}
